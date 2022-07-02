@@ -28,14 +28,25 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 2rem;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 6rem;
+    height: 5rem;
     background: var(--color-primary);
+}
+
+.header__socials::before {
+    content: '';
+    width: 1px;
+    height: 5rem;
+    background: var(--color-primary);
+}
+
+.socials__text {
+    color: var(--color-primary);
 }
 
 /*========= ME ============*/
@@ -49,7 +60,7 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 5rem 0 0 0;
 }
 
 /*========= SCROLL DOWN ============*/
