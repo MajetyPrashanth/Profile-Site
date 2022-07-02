@@ -41,6 +41,14 @@ body {
 }
 
 /*========================= GENERAL STYLES ========================*/
+.green-text {
+    color: greenyellow;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
